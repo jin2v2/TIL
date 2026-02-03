@@ -76,12 +76,12 @@ def sum_row_maximums(matrix):
     result = 0
     for row in matrix:
         # row 에서 최대값 찾기
-        min_val = row[0]
+        max_val = row[0]
         for val in row:
-            if min_val < val:
-                min_val = val
+            if max_val < val:
+                max_val = val
     
-        result += min_val
+        result += max_val
     
     return result
 
