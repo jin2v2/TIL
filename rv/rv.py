@@ -115,8 +115,4 @@ def find_second_largest(numbers):
 
 # 9번
 
-
-
 # 10번
-
-
