@@ -1,4 +1,4 @@
-# 12388
+# 12388 색칠하기 확인용
 T = int(input())
 
 for tc in range(1, T + 1):
